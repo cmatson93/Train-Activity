@@ -1,3 +1,7 @@
+// some jquery for my animation
+$('.slide-box').bind('animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd', function(e) { $(this).remove(); });
+
+
 
 // Initialize Firebase
 // Initialize Firebase
